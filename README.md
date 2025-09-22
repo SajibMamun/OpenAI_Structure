@@ -1,35 +1,9 @@
 # OpenAI_Structure
 
 **For chat.completions**
-response = client.chat.completions.create(
-    model="gpt-4o",
-    messages=[
-        {"role": "system", "content": "You are a helpful assistant"},
-        {"role": "user", "content": "Explain quantum computing simply"}
-    ]
-)
-print(response.choices[0].message["content"])
+<img width="646" height="269" alt="image" src="https://github.com/user-attachments/assets/6c7b2086-ed9b-4b1d-9c51-258157253b17" />
 
+<br><br>
 
 **For client.response**
-
-from openai import OpenAI
-client = OpenAI()
-
-response = client.responses.create(
-    model="gpt-5",
-    reasoning={"effort": "low"},
-    input=[
-        {
-            "role": "developer",
-            "content": "Talk like a pirate."
-        },
-        {
-            "role": "user",
-            "content": "Are semicolons optional in JavaScript?"
-        }
-    ]
-)
-
-print(response.output_text)
-
+<img width="531" height="388" alt="image" src="https://github.com/user-attachments/assets/15626a8f-30e1-4598-90d4-d2e06503b2ef" />
