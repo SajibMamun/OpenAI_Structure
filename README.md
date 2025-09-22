@@ -11,6 +11,6 @@
 
 <br> <br>
 
-**Main Comparison**
+**Main Comparison**<br>
 <img width="832" height="326" alt="image" src="https://github.com/user-attachments/assets/62da08c4-1066-4c5f-88ba-3ec0d4df244a" />
 
