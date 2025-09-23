@@ -16,7 +16,6 @@ class OpenAIService:
 
     def generate_response(self, request: requestModel) -> responseModel:
 
-
         system_prompt = "Answer the question as truthfully as possible."
 
         response = self.client.chat.completions.create(
